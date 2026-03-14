@@ -1,0 +1,70 @@
+# ========================
+# Python Core
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+ENV/
+.venv
+.env
+
+# ========================
+# Streamlit Specific
+# ========================
+# Ignore Streamlit secrets if you ever add API keys or credentials
+.streamlit/secrets.toml
+
+# ========================
+# Project Specific (Data & Outputs)
+# ========================
+# Ignore chess game files to prevent repo bloat
+*.pgn
+
+# Ignore generated plots, data, and legacy LaTeX outputs
+plots/
+*.pdf
+*.tex
+*.aux
+*.log
+*.out
+*.png
+*.svg
+*.json
+
+# ========================
+# OS / IDE Specific
+# ========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db

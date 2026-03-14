@@ -1,0 +1,7 @@
+services:
+  chess-analyzer:
+    build: .
+    container_name: chess-analyzer-ui
+    ports:
+      - "8502:8501" # Host port 8502 routes to container port 8501
+    restart: unless-stopped
